@@ -1,0 +1,22 @@
+body{
+	color: green;
+	text-align: center;
+	font-weight: bold;
+	font-size: 175%;
+}
+.pink-text{
+	color: pink;
+}
+.blue-text{
+	color: blue;
+}
+.orange-text{
+	color: orange;
+}
+#yellow{
+	color: yellow;
+}
+#red{
+	color: red;
+}
+
