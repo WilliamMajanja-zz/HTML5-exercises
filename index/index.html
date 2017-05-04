@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	 	<!-- Required meta tags always come first -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Paragraphs</title>
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="overiding/css/style.css">
+	</head>
+	<body>
+
+
+		<div class="container-fluid">
+		<nav>
+		
+		<a href="index.html">Home</a>
+        <a href="speakers.html">Speakers</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="venue.html">Venue</a>
+        <a href="register.html">Register</a>
+		
+		</nav>
+		<h1 class="text-xs-center">Hello World</h1>
+		<div class="row">
+		<!--div id="top"-->
+			<div id="body" class="col-md-6">
+			<p class="pink-text"> Class overrides body </p>
+			<p class="blue-text" id="yellow">ID overrides class and body</p>
+			<p class="orange-text" style="color: black;" id="red">Style overrides ID, class, body</p>
+			</div>
+			
+			<div id="aside" class="col-md-6">
+			<aside>
+				<h3> Aside </h3>
+			</aside>
+			</div>
+		<!--/div-->
+	
+				<!--div class ="row" id="bottom"-->
+					<div class="col-md-6" id="rightdiv" >						
+						<h3> Right Div</h3>													
+					</div>
+					<div class="col-md-6" id="leftdiv">					
+						<h3> Left Div</h3>						
+					</div>
+				<!--/div-->
+				
+			
+			</div>
+			</div>
+		
+
+
+		<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<!-- Bootstrap JavaScript -->
+		<script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+	</body>
+</html>
