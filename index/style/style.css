@@ -1,0 +1,56 @@
+@font-face{
+	font-family:'Cooper-hewitt';
+	src: url('cooper-hewitt/CooperHewitt-Semibold.otf');
+}
+@font-face{
+	font-family: 'FiraSans-Bold';
+	src: url('FiraSans-Bold.ttf');
+}
+@font-face{
+	font-family: 'Satisfy';
+	src: url('Satisfy/Satisfy-Regular.ttf');
+}
+
+body{
+	text-align: center;
+}
+
+h1{
+	font-family: 'Satisfy';
+	font-size: 4em;
+	font-weight: bold;	
+}
+h3{
+	font-family: 'Cooper-hewitt';
+	font-size: xx-large;
+
+}
+
+#divone{
+	background: #4DAFAF;
+	background: rgba(77, 175, 174);
+	height: 400px;
+}
+#divtwo{
+	background-color: #BA90D4;
+	height: 400px;
+}
+#divthree{
+	background-color: #D49890;
+	height: 400px;
+}
+#divfour{
+	background-color: #AAD490;
+	height: 400px;
+}
+
+a{
+	font-family: 'FiraSans-Bold';
+	font-size: 1.2em;
+}
+a:hover{
+	color: #DBFF33;
+}
+a:visited{
+	color: #AF4D7F;
+}
