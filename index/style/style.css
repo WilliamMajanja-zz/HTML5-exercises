@@ -1,56 +1,67 @@
-@font-face{
-	font-family:'Cooper-hewitt';
-	src: url('cooper-hewitt/CooperHewitt-Semibold.otf');
-}
-@font-face{
-	font-family: 'FiraSans-Bold';
-	src: url('FiraSans-Bold.ttf');
-}
-@font-face{
-	font-family: 'Satisfy';
-	src: url('Satisfy/Satisfy-Regular.ttf');
+@font-face {
+    font-family: 'Cooper-hewitt';
+    src: url('cooper-hewitt/CooperHewitt-Semibold.otf');
 }
 
-body{
-	text-align: center;
+@font-face {
+    font-family: 'FiraSans-Bold';
+    src: url('FiraSans-Bold.ttf');
 }
 
-h1{
-	font-family: 'Satisfy';
-	font-size: 4em;
-	font-weight: bold;	
-}
-h3{
-	font-family: 'Cooper-hewitt';
-	font-size: xx-large;
-
+@font-face {
+    font-family: 'Satisfy';
+    src: url('Satisfy/Satisfy-Regular.ttf');
 }
 
-#divone{
-	background: #4DAFAF;
-	background: rgba(77, 175, 174);
-	height: 400px;
-}
-#divtwo{
-	background-color: #BA90D4;
-	height: 400px;
-}
-#divthree{
-	background-color: #D49890;
-	height: 400px;
-}
-#divfour{
-	background-color: #AAD490;
-	height: 400px;
+body {
+    text-align: center;
 }
 
-a{
-	font-family: 'FiraSans-Bold';
-	font-size: 1.2em;
+h1 {
+    font-family: 'Satisfy';
+    font-size: 4em;
+    font-weight: bold;
 }
-a:hover{
-	color: #DBFF33;
+
+h3 {
+    font-family: 'Cooper-hewitt';
+    font-size: xx-large;
 }
-a:visited{
-	color: #AF4D7F;
+
+.projdiv {
+    height: 200px;
+}
+
+#divone {
+    background: #4DAFAF;
+    background: rgba(77, 175, 174);
+}
+
+#divtwo {
+    background-color: #BA90D4;
+}
+
+#divthree {
+    background-color: #D49890;
+}
+
+#divfour {
+    background-color: #AAD490;
+}
+
+#divfive {
+    background-color: #CB72A4;
+}
+
+a {
+    font-family: 'FiraSans-Bold';
+    font-size: 1.2em;
+}
+
+a:hover {
+    color: #DBFF33;
+}
+
+a:visited {
+    color: #AF4D7F;
 }
