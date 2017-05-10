@@ -15,6 +15,7 @@
 
 body {
     text-align: center;
+    color: white;
 }
 
 h1 {
@@ -33,24 +34,27 @@ h3 {
 }
 
 #divone {
-    background: #4DAFAF;
-    background: rgba(77, 175, 174);
+    background: #FF5F5B;
 }
 
 #divtwo {
-    background-color: #BA90D4;
+    background-color: #F39104;
 }
 
 #divthree {
-    background-color: #D49890;
+    background-color: #F4F147;
 }
 
 #divfour {
-    background-color: #AAD490;
+    background-color: #90DC61;
 }
 
 #divfive {
-    background-color: #CB72A4;
+    background-color: #858FEB;
+}
+
+#divsix {
+    background-color: #624866;
 }
 
 a {
