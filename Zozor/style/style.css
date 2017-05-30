@@ -26,6 +26,12 @@ body {
     margin: auto;
 }
 
+@media all and (max-width: 1024px) {
+    .mainwrapper {
+        width: auto;
+    }
+}
+
 #logo {
     float: left;
 }
@@ -68,6 +74,23 @@ nav a:hover {
     border-bottom: 3px solid #760001;
 }
 
+@media all and (max-width: 1024px) {
+    nav {
+        width: auto;
+        text-align: left;
+    }
+    nav li {
+        display: block;
+        padding-left: 4px;
+    }
+    nav a {
+        font-size: 1.1em;
+    }
+    nav a:hover {
+        border-bottom: 0;
+    }
+}
+
 #bannerimage {
     margin-top: 15px;
     height: 200px;
@@ -87,6 +110,15 @@ nav a:hover {
     bottom: 0;
     background-color: rgb(24, 24, 24);
     background-color: rgba(24, 24, 24, 0.8);
+}
+
+@media all and (max-width: 1024px) {
+    #banner_image {
+        display: none;
+    }
+    #banner_description {
+        display: none;
+    }
 }
 
 article,
@@ -129,6 +161,26 @@ aside {
 
 aside img {
     margin-right: 5px;
+}
+
+@media all and (max-width: 1024px) {
+    article,
+    aside {
+        width: auto;
+        display: block;
+        margin-bottom: 15px;
+    }
+    #arrow {
+        display: none;
+    }
+    #zozor_picture img {
+        width: 110px;
+        float: right;
+        margin-left: 15px;
+    }
+    aside p:last-child {
+        text-align: center;
+    }
 }
 
 footer {
