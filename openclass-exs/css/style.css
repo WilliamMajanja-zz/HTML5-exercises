@@ -25,15 +25,28 @@ body {
 
 
 /*header{
-	background-color: #EEEF97;
-	background-color: rgba(238, 239, 151, 0.57);
+    background-color: #EEEF97;
+    background-color: rgba(238, 239, 151, 0.57);
 }*/
+
+@media all and (max-width:480px) {
+    aside {
+        display: none;
+    }
+    #rightsec {
+        width: auto;
+        display: block;
+    }
+    article {
+        width: 100%;
+    }
+}
 
 .heading {
     font-family: 'CAC-Champagne';
     font-size: 2.7em;
     text-align: center;
-    text-shadow: 6px 6px 6px #ECEF37;
+    text-shadow: 6px 6px 6px #EEEF97;
 }
 
 .tagline {
@@ -44,18 +57,11 @@ body {
 
 h3 {
     color: #EF1527;
-    text-shadow: 4px 4px 4px #ECEF37;
+    text-shadow: 4px 4px 4px #EEEF97;
     font-family: 'Aleo';
     font-style: oblique;
     text-decoration: overline;
-    text-decoration-color: #F6A3B3;
-}
-
-section {
-    align-items: center;
-    border: 5px double #EEEF97;
-    padding: 10px;
-    padding-left: 30px;
+    text-decoration-color: #EEEF97;
 }
 
 a {
@@ -66,10 +72,10 @@ a:hover {
     font-style: italic;
     font-weight: bold;
     color: yellow;
-    list-style: #EF1527;
+    list-style: #EEEF97;
 }
 
-#aside {
+aside {
     position: absolute;
     top: 0;
     left: 0;
@@ -83,23 +89,12 @@ a:hover {
 #rightsec {
     margin-left: 170px;
     min-height: 400px;
+    vertical-align: top;
+    align-items: center;
 }
 
-#asone {
-    margin-top: 100px;
-    float: left;
+article {
+    display: inline-block;
+    vertical-align: top;
     width: 30%;
-}
-
-#astwo {
-    margin-top: 100px;
-    float: left;
-    width: 30%;
-}
-
-#asthree {
-    margin-top: 100px;
-    float: right;
-    width: 30%;
-    clear: right;
 }
