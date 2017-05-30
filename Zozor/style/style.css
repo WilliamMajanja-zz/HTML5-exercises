@@ -1,77 +1,171 @@
-@font-face
-{
+@font-face {
     font-family: 'BallparkWeiner';
     src: url('fonts/ballpark.eot');
-    src: url('fonts/ballpark.eot?#iefix') format('embedded-opentype'),
-         url('fonts/ballpark.woff') format('woff'),
-         url('fonts/ballpark.ttf') format('truetype'),
-         url('fonts/ballpark.svg#BallparkWeiner') format('svg');
+    src: url('fonts/ballpark.eot?#iefix') format('embedded-opentype'), url('fonts/ballpark.woff') format('woff'), url('fonts/ballpark.ttf') format('truetype'), url('fonts/ballpark.svg#BallparkWeiner') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
-@font-face
-{
+@font-face {
     font-family: 'Dayrom';
     src: url('fonts/dayrom.eot');
-    src: url('fonts/dayrom.eot?#iefix') format('embedded-opentype'),
-         url('fonts/dayrom.woff') format('woff'),
-         url('fonts/dayrom.ttf') format('truetype'),
-         url('fonts/dayrom.svg#Dayrom') format('svg');
+    src: url('fonts/dayrom.eot?#iefix') format('embedded-opentype'), url('fonts/dayrom.woff') format('woff'), url('fonts/dayrom.ttf') format('truetype'), url('fonts/dayrom.svg#Dayrom') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
-body{
-	background: url('images/yellow_background.png');
+body {
+    background: url('images/yellow_background.png');
     font-family: 'Trebuchet MS', Arial, sans-serif;
     color: #181818;
-	}
-
-.main_wrapper{
-	width: 900px;
-	margin:auto;
-}
-header{
-	background: url('images/line.png') repeat-x bottom;
-}
-#main_title{
-	display: inline-block;
-}
-header h1{
-	font-family: BallparkWeiner, serif;
-	font-size: 2.5em;
-}
-header h4{
-	clear: right;
-}
-h3, nav a{
-	font-family: Dayrom, serif;
-
+    box-sizing: border-box;
 }
 
-#logo, header h1{
-	display: inline-block;
-	margin-bottom: 0px;
+.main_wrapper {
+    width: 900px;
+    margin: auto;
 }
 
-.logo{
-	float: left;
+#logo {
+    float: left;
 }
 
-li{
-	float: right;
-	display: inline;
-	padding: 5px;
-
+header {
+    background: url('images/line.png') repeat-x bottom;
 }
-#bannerimage{
-	height: 400px;
-	background: url('images/sanfrancisco.jpg') no-repeat center;
-}
-#banner_description{
-	clear: both;
-	position: relative;
-	z-index: 1;
 
+header h1 {
+    font-family: BallparkWeiner, serif;
+    font-size: 2.5em;
+}
+
+header h4 {
+    clear: both;
+    margin-top: 0;
+}
+
+h3,
+nav a {
+    font-family: Dayrom, serif;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav {
+    display: inline-block;
+    width: 740px;
+    text-align: right;
+}
+
+ul li {
+    list-style: none;
+    float: right;
+    padding-right: 5px;
+}
+
+nav a:hover {
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+#bannerimage {
+    margin-top: 15px;
+    height: 200px;
+    width: 100%;
+    background: url('images/sanfrancisco.jpg') no-repeat;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 5px 8px 8px #A4B3F2;
+}
+
+#banner_description {
+    height: 33px;
+    width: 99.5%;
+    color: white;
+    padding: 8px;
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(24, 24, 24);
+    background-color: rgba(24, 24, 24, 0.8);
+}
+
+article,
+aside {
+    vertical-align: top;
+    display: inline-block;
+    text-align: justify;
+}
+
+article {
+    width: 625px;
+    margin-right: 15px;
+}
+
+aside {
+    position: relative;
+    background: #8D8B7C;
+    width: 235px;
+    margin-top: 25px;
+    float: right;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px #803B3B;
+}
+
+#arrow {
+    position: absolute;
+    top: 78px;
+    left: -12px;
+}
+
+#zozor_picture {
+    text-align: center;
+}
+
+#zozor_picture img {
+    border: 2px solid #535252;
+}
+
+aside img {
+    margin-right: 5px;
+}
+
+footer {
+    background: url('images/top.png') no-repeat top center, url('images/line.png') repeat-x top, url('images/shadow.png') repeat-x top;
+    padding-top: 25px;
+}
+
+#tweet,
+#pics,
+#friends {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+#tweet {
+    width: 28%;
+}
+
+#pic {
+    width: 35%;
+}
+
+#friends {
+    width: 31%;
+}
+
+#friends ul {
+    list-style-image: url('images/external_link.png');
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0;
+    width: 48%;
+    padding-left: 2px;
+}
+
+#friends a {
+    text-decoration: none;
+    color: #760001;
 }

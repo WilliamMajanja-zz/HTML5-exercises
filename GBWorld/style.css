@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Aleo-Bold';
+    src: url(aleo/Aleo-BoldItalic.otf);
+}
+
+@font-face {
+    font-family: 'Aleo';
+    src: url('aleo/Aleo-Regular.otf');
+}
+
+body {
+    background-color: #FBF8DD;
+    margin: auto;
+    width: 900px;
+}
+
+h1 {
+    font-family: Aleo-Bold, serif;
+    color: #4f3600;
+    display: block;
+    font-size: 3.8em;
+}
+
+p {
+    font-family: Aleo, sans-serif;
+    font-size: 1.1em;
+    line-height: 1.3em;
+    margin: 0 0 20px;
+}
