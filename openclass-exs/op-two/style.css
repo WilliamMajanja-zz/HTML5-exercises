@@ -1,0 +1,23 @@
+html,
+body {
+    margin: 0 auto;
+    width: 900px;
+}
+
+p {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+caption {
+    caption-side: top;
+    text-align: center;
+}
+
+td,
+th {
+    border: 1px dashed green;
+}
