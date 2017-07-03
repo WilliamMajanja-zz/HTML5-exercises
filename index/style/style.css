@@ -32,12 +32,14 @@ h3 {
     height: 400px;
 }
 
-#divone {
+#divone,
+#divsix {
     background: #4DAFAF;
     background: rgba(77, 175, 174);
 }
 
-#divtwo {
+#divtwo,
+#divsev {
     background-color: #BA90D4;
 }
 
